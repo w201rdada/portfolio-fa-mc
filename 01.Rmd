@@ -1,24 +1,32 @@
-# My first cool idea {#slug-one}
+# Totally Legal Front Runner
 
 #### Keywords
 
-yaba, daba, do
+Machine learning, natural language processing, front-running.
 
 ## A beginning.
 
-Chartreuse next level beard, gochujang vexillologist letterpress meggings.  Godard in  vero, raw denim asymmetrical small batch shabby chic.  Four loko id  actually, pug sartorial sustainable twee live-edge ea chartreuse typewriter disrupt ut direct trade  accusamus.  Nesciunt hoodie live-edge hell of cred, man braid ex mixtape tumblr odio skateboard 8-bit.  Cold-pressed portland nesciunt schlitz organic, lyft bespoke keffiyeh jianbing migas plaid.  Aute  delectus id  master cleanse migas.  Assumenda enamel pin man braid tumblr, four dollar toast YOLO selfies pitchfork tacos kale chips cronut hot chicken.
+Winter is coming for the active asset managers, due to the rising popularity of low cost ETFs in the recent years. This project aims to bring data science into the active management world to help asset managers generate better returns by predicting the behavior of passively managed funds.
 
 ## A middle.
 
-Deep v accusamus fingerstache tempor kickstarter, sunt banjo tumeric franzen irure  beard af velit  meditation kogi.  Keffiyeh fam shoreditch voluptate  pork belly.  Trust fund vape fixie, dolor  lomo exercitation cardigan.  Meggings hot chicken chartreuse, health goth 3 wolf moon lumbersexual deep v et celiac art party.  Keffiyeh magna mlkshk drinking vinegar, tbh mollit  thundercats heirloom health goth kale chips kitsch gochujang chambray aute  +1.  Heirloom ugh chicharrones franzen locavore swag.  Hexagon man braid lomo, gentrify elit shoreditch flexitarian single-origin coffee gochujang kitsch nihil yuccie mlkshk.
+ETFs and passive funds have become popular in recent years, due to the low cost and relatively low risk. Several studies have found that most active funds could not generate higher-than-market return over the long run, let alone the high management fee and tax attached to them. Even if active managers could identify and profit from market inefficiencies from time to time, a perfectly sound and safe strategy could be hindered by market's irrationality and black swan events.
 
-<!-- ...or include images directly from the web. Cite your sources! -->
-```{r machine-learning,echo=FALSE,fig.cap='[xkcd: Machine Learning](https://xkcd.com/1838/)',fig.align='center',out.width='50%'}
-knitr::include_graphics('https://imgs.xkcd.com/comics/machine_learning.png')
-```
+This project is not aimed to identify mispricing or arbitrage opportunities. Instead, the project is aimed to help investors understand the behavior of passive funds, and make predictions over the securities that might be traded in the next rebalancing.
 
-Commodo mustache pinterest yr, nostrud nesciunt esse  photo booth.  Keytar synth mlkshk, ullamco veniam sed laboris  seitan velit  live-edge fam gastropub.  Ad mumblecore nihil messenger bag williamsburg occaecat.  Bushwick pickled ullamco, keytar letterpress vice chillwave cillum.  Voluptate  listicle irure  food truck coloring book shoreditch.  Before they sold out four dollar toast stumptown single-origin coffee, retro nostrud veniam dreamcatcher street art subway tile sed pabst hoodie copper mug.  Everyday carry seitan vaporware gastropub etsy, freegan ramps hashtag vegan.
+1. Use Natural Language Processing to process the key features of each fund, e.g. what is the investment mandate, the return target and risk appetite? What is the benchmark? How well is the historical tracking record? What is the weighting scheme and how often does the rebalance happen?
+
+2. Retrieve the monthly holdings data for the passive funds (due to the complexity of bond market, I will only focus on equity funds at this time).
+
+3. Based on the rebalancing results, group the securities into three groups (bought, sold, hold). Use machine learning techniques to classify these securities, or try to find the features that can best distinguish them.
+
+4. Train a model to predict the securities and the volume that will be traded in the next rebalance. Take consideration of the trading costs and taxes. 
+
+5. Front run! However, don't lie all your faith in the model. Control your exposures appropriately.
+
 
 ## An end.
 
-90's salvia echo park voluptate, ennui pitchfork church-key photo booth pug aesthetic offal.  Jianbing lomo disrupt before they sold out umami.  Sapiente in  swag yr leggings, selfies distillery fap enamel pin elit aliquip listicle organic master cleanse pug.  La croix coloring book cray, vice ullamco cornhole whatever copper mug neutra pour-over vinyl kogi incididunt tilde gastropub.  Prism veniam VHS, sustainable ea meh viral duis.  Hell of health goth 8-bit microdosing sed keffiyeh.  Laboris  marfa hell of chartreuse celiac poutine keytar, iceland scenester enim nihil man bun church-key forage fam.
+I expect this project would help active mangers generate some alpha in the short term. However, just as any other games, whenever a new strategy gains some edge, a counter strategy will come into place sooner or later. Even if there is no counter strategy and this strategy continues to make a lot of profit, it could be easily copied by other investors, which would lead to higher execution cost, lower expected profit, and more dangerously, higher price volatility around balancing periods.
+
+Nevertheless, the tool developed in step 1 & 2 could serve as a powerful tool for investors, educators and researchers to easily get summarized information from a large pool of ETFs and mutual funds.
