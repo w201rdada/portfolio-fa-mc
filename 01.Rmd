@@ -1,14 +1,14 @@
-# Totally Legal Front Runner
+# Totally Legal Front Runner # Rebalancing speculation
 
 #### Keywords
 
 Machine learning, natural language processing, front-running.
 
-## A beginning.
+## Alpha is fading
 
-Winter is coming for the active asset managers, due to the rising popularity of low cost ETFs in the recent years. This project aims to bring data science into the active management world to help asset managers generate better returns by predicting the behavior of passively managed funds.
+Winter is coming for the active asset managers, due to the rising popularity of low cost ETFs in the recent years. This project aims leverage data science techniques to develop an active trading strategy to help asset managers generate better returns by predicting the behavior of passively managed funds.
 
-## A middle.
+## How to train your model
 
 ETFs and passive funds have become popular in recent years, due to the low cost and relatively low risk. Several studies have found that most active funds could not generate higher-than-market return over the long run, let alone the high management fee and tax attached to them. Even if active managers could identify and profit from market inefficiencies from time to time, a perfectly sound and safe strategy could be hindered by market's irrationality and black swan events.
 
@@ -22,10 +22,10 @@ This project is not aimed to identify mispricing or arbitrage opportunities. Ins
 
 4. Train a model to predict the securities and the volume that will be traded in the next rebalance. Take consideration of the trading costs and taxes. 
 
-5. Front run! However, don't lie all your faith in the model. Control your exposures appropriately.
+5. Trade! However, don't lie all your faith in the model. Control your exposures prudently.
 
 
-## An end.
+## The end
 
 I expect this project would help active mangers generate some alpha in the short term. However, just as any other games, whenever a new strategy gains some edge, a counter strategy will come into place sooner or later. Even if there is no counter strategy and this strategy continues to make a lot of profit, it could be easily copied by other investors, which would lead to higher execution cost, lower expected profit, and more dangerously, higher price volatility around balancing periods.
 
