@@ -6,10 +6,10 @@ Job-matching,
 
 ## More than a job board
 
-### for job seekers
+### [For job seekers]
 Finding the right job has never been easy. Even though there are over 100 job boards on the internet, it is difficult to search for the suitable positions by simply typing the keywords (e.g. if you search for data scientist positions, the results are mixed with data base engineer and credit card risk analyst). Interactive Recruiters will make this type of search obsolete. By leveraging advanced machine learning algorithms, we aim to deliver your dream jobs to your home (screen).
 
-### for recruiters
+### [For recruiters]
 Finding the right candidate has never been easy. Even though there are over 100 job boards on the internet, it is difficult to choose the qualified candidates from tons of resumes, assuming the job posting has reached target candidates in the first place. Interactive Recruiters will help you identify the talent. By leveraging advanced machine learning algorithms, we aim to deliver the best fitted candidates to your home (screen).
 
 
