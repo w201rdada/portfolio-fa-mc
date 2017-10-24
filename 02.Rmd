@@ -1,12 +1,17 @@
-# My second cool idea {#slug-two}
+# Interactive Recruiters {#slug-two}
 
 #### Keywords
 
-yaba, daba, do
+Job-matching, 
 
-## A beginning.
+## More than a job board
 
-Nulla  sint  art party ex, mlkshk disrupt selvage 90's.  Umami sed slow-carb, fugiat  dolore nihil glossier magna migas actually farm-to-table microdosing keytar fixie.  IPhone fashion axe pinterest, cardigan street art quinoa banh mi bitters mollit  commodo pok pok culpa  delectus ut air plant.  Offal edison bulb ex, celiac 8-bit vaporware polaroid thundercats flannel kickstarter labore.  Activated charcoal portland af tousled microdosing woke, in  thundercats consectetur gluten-free hammock duis  next level DIY.  Keffiyeh commodo velit  mollit  brunch, cronut edison bulb banh mi swag stumptown crucifix hell of.  Brunch williamsburg try-hard, seitan literally vexillologist venmo DIY pariatur nesciunt master cleanse XOXO.
+### for job seekers
+Finding the right job has never been easy. Even though there are over 100 job boards on the internet, it is difficult to search for the suitable positions by simply typing the keywords (e.g. if you search for data scientist positions, the results are mixed with data base engineer and credit card risk analyst). Interactive Recruiters will make this type of search obsolete. By leveraging advanced machine learning algorithms, we aim to deliver your dream jobs to your home (screen).
+
+### for recruiters
+Finding the right candidate has never been easy. Even though there are over 100 job boards on the internet, it is difficult to choose the qualified candidates from tons of resumes, assuming the job posting has reached target candidates in the first place. Interactive Recruiters will help you identify the talent. By leveraging advanced machine learning algorithms, we aim to deliver the best fitted candidates to your home (screen).
+
 
 ## A middle.
 
