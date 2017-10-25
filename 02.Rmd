@@ -6,16 +6,15 @@ Job-matching,
 
 ## More than a job board
 
-### [For job seekers]
-Finding the right job has never been easy. Even though there are over 100 job boards through the internet, it is difficult to search for the suitable positions by simply typing the keywords (e.g. if you search for data scientist positions, the results are mixed with data base engineer and credit card risk analyst). Interactive Recruiters will make this type of search obsolete. By leveraging advanced machine learning algorithms, we aim to deliver your dream jobs right to your home (screen).
-
-### [For recruiters]
-Finding the right candidate has never been easy. Even though there are over 100 job boards through the internet, it is difficult to choose the qualified candidates from tons of resumes, assuming the job posting had reached targeted candidates in the first place. Interactive Recruiters will help you identify the talent. By leveraging advanced machine learning algorithms, we aim to deliver the best fitted candidates right to your home (screen).
+Matching jobs with right candidates has never been an easy task. For candidates, it is difficult to find positions of interest by simply searching through the keywords (e.g. if you search for data scientist positions, the results are mixed with data base engineer and credit card risk analyst); for recruiters, selecting qualified candidates through piles of resumes is also quite a challenge. Interactive Recruiters will make this type of search obsolete. By leveraging advanced machine learning algorithms, we aim to help the right candidates and recruiters find each other.
 
 
 ## A middle.
 
-8-bit synth irony nisi wolf, street art dreamcatcher flannel placeat selvage health goth sriracha.  Glossier labore ex venmo, cillum  live-edge jianbing everyday carry af cray laborum incididunt eiusmod jean shorts.  Normcore slow-carb lyft letterpress, beard tilde art party.  Poke marfa incididunt tempor duis.  Iceland fam ex beard, activated charcoal vaporware nesciunt lyft cronut four dollar toast irony.  Officia  stumptown voluptate  unicorn culpa  bushwick.  Mollit  vero af marfa deserunt  flexitarian.
+We have two types of users: job seekers and recruiters. The goal is to design a classifier based on each user’s profile (education, industry, years of experience, location, etc.) that will help him / her find the suitable positions / candidates. We will rely extensively on natural language processing to capture the features of resumes and job postings. At the early stage, the user still needs to rely on the traditional key-word searching and identify some positions / resumes of interest. Once there are enough samples to make predictions, we will start to push the positions / resumes predicted by the algorithm to the end user. The user can then select positions / resumes that match his / her preference, the results will be further used as training set to refine the prediction. In other words, the more a user uses our service, the more precise the prediction is going to become.
+ 
+Once we have sufficient interactions between job seekers and recruiters, we can start to offer more value-adding services based on the analytics. For instance, for a candidate who's interested in a position, we can share information on what features the recruiters of similar positions are interested in and offer the candidate advice to build skills and resume. For a recruiter, we can evaluate if his / her job posting is attracting the targeted candidates. If not, we can help him / her find what the targeted candidates are actually looking for.
+
 
 
 ```{r experimental,echo=F,results='asis',eval=F}
