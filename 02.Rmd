@@ -2,28 +2,22 @@
 
 #### Keywords
 
-Job-matching, 
+Job-matching, real-time profiling, 2-way feedback
 
 ## More than a job board
 
 Matching jobs with right candidates has never been an easy task. For candidates, it is difficult to find positions of interest by simply searching through the keywords (e.g. if you search for data scientist positions, the results are mixed with data base engineer and credit card risk analyst); for recruiters, selecting qualified candidates through piles of resumes is also quite a challenge. Interactive Recruiters will make this type of search obsolete. By leveraging advanced machine learning algorithms, we aim to help the right candidates and recruiters find each other.
 
 
-## A middle.
+## How it works?
 
 We have two types of users: job seekers and recruiters. The goal is to design a classifier based on each user’s profile (education, industry, years of experience, location, etc.) that will help him / her find the suitable positions / candidates. We will rely extensively on natural language processing to capture the features of resumes and job postings. At the early stage, the user still needs to rely on the traditional key-word searching and identify some positions / resumes of interest. Once there are enough samples to make predictions, we will start to push the positions / resumes predicted by the algorithm to the end user. The user can then select positions / resumes that match his / her preference, the results will be further used as training set to refine the prediction. In other words, the more a user uses our service, the more precise the prediction is going to become.
  
-Once we have sufficient interactions between job seekers and recruiters, we can start to offer more value-adding services based on the analytics. For instance, for a candidate who's interested in a position, we can share information on what features the recruiters of similar positions are interested in and offer the candidate advice to build skills and resume. For a recruiter, we can evaluate if his / her job posting is attracting the targeted candidates. If not, we can help him / her find what the targeted candidates are actually looking for.
+Once we have sufficient interactions between job seekers and recruiters, we can start to offer more value-adding services based on the analytics. For instance, for candidates who are interested in a position, we can share them information on what features on the resume that recruiters of similar positions are interested in, help them understand their strength and weakness and offer them advice to build skills and reword the resume. For recruiters, we can help them evaluate the effectiveness of their job posts (e.g. to find out what type of candidates react to the posting, are they the targeted ones?).
+
+For privacy concerns, we do not plan to use any data from personal interactions between candidates and recruiters, although such kind of interactions and transparent feedbacks are encouraged on this platform.
 
 
+## Making job hunting a better experience
 
-```{r experimental,echo=F,results='asis',eval=F}
-data.table::fread('https://raw.githubusercontent.com/UCB-MIDS/experiments-causality/master/data/GerberGreenBook_Chapter3_Donations.csv?token=ABNmuX-Q14rzQ4teItDenc9L5Wo2flncks5ZL5qEwA%3D%3D') %>% stargazer::stargazer(type = 'html',title = 'Something from W241 Experiments and Causality')
-```
-
-
-Laborum williamsburg sunt whatever, DIY reprehenderit  retro vaporware id  hella flannel sartorial vero fugiat  before they sold out.  Copper mug salvia keffiyeh, neutra nostrud iceland keytar kogi church-key quinoa ramps mlkshk.  Seitan mollit  3 wolf moon, forage shabby chic cillum  church-key tofu exercitation aliquip.  Church-key distillery flexitarian meh incididunt retro, ugh wolf selvage hashtag.  Bicycle rights 90's officia  vape.  Listicle post-ironic vape ex.  Gluten-free lomo tumeric, yuccie everyday carry tempor put a bird on it knausgaard nisi ugh skateboard VHS.
-
-## An end.
-
-Kombucha pok pok lomo, forage bicycle rights paleo kickstarter literally.  Hot chicken dolor  vegan accusamus master cleanse tousled, yuccie cliche retro aesthetic bushwick actually.  Ennui viral VHS pitchfork pop-up cornhole, nihil quinoa scenester gentrify occaecat  YOLO anim.  Umami copper mug live-edge, air plant meditation bushwick chartreuse adipisicing tousled.  Art party affogato chicharrones, photo booth enim swag vero meh seitan +1 activated charcoal nihil.  Etsy gluten-free authentic mixtape.  Shabby chic duis  90's pop-up pinterest, lumbersexual mollit  cillum.
+We aim to build a platform with personalized job searching / candidate screening experience for both candidates and recruiters that offers insights to help them improve their competitiveness. Through lowering down the cost of information retrieval and bridging the gap of information asymmetry between candidates and recruiters, this project will help build a more effective and transparent job market.
