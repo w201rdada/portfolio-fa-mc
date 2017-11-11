@@ -1,21 +1,21 @@
-# Interactive Recruiters {#slug-two}
+# Interactive Recruiters {#Intelligent Job Match}
 
 #### Keywords
 
-Job-matching, real-time profiling, 2-way feedback
+Personalized Job-matching, 2-way feedback, long-term career advice
 
 ## More than a job board
 
-Matching jobs with right candidates has never been an easy task. For candidates, it is difficult to find positions of interest by simply searching through the keywords (e.g. if you search for data scientist positions, the results are mixed with data base engineer and credit card risk analyst); for recruiters, selecting qualified candidates through piles of resumes is also quite a challenge. Interactive Recruiters will make this type of search obsolete. By leveraging advanced machine learning algorithms, we aim to help the right candidates and recruiters find each other.
+Matching jobs with right candidates has never been an easy task. According to a recent [survey conducted by Society of Human Resource Management](https://www.shrm.org/about-shrm/press-room/press-releases/pages/human-capital-benchmarking-report.aspx), it takes an average of 42 days to fill an open position, with an average cost of $4,129. The existing job boards, most of which use the key-word mapping, are inefficient. For candidates, it is difficult to find positions of interest by searching through keywords (e.g. if you search for data scientist positions, the results are mixed with data base engineer and credit card risk analyst); for recruiters, selecting qualified candidates through piles of resumes is also quite a challenge. Interactive Recruiters will make the old way of search obsolete. By leveraging advanced machine learning algorithms, we aim to help the candidates and recruiters find each other.
 
 
-## How it works?
+## How does it work?
 
-We have two types of users: job seekers and recruiters. The goal is to design a classifier based on each user’s profile (education, industry, years of experience, location, etc.) that will help him / her find the suitable positions / candidates. We will rely extensively on natural language processing to capture the features of resumes and job postings. At the early stage, the user still needs to rely on the traditional key-word searching and identify some positions / resumes of interest. Once there are enough samples to make predictions, we will start to push the positions / resumes predicted by the algorithm to the end user. The user can then select positions / resumes that match his / her preference, the results will be further used as training set to refine the prediction. In other words, the more a user uses our service, the more precise the prediction is going to become.
- 
-Once we have sufficient interactions between job seekers and recruiters, we can start to offer more value-adding services based on the analytics. For instance, for candidates who are interested in a position, we can share them information on what features on the resume that recruiters of similar positions are interested in, help them understand their strength and weakness and offer them advice to build skills and reword the resume. For recruiters, we can help them evaluate the effectiveness of their job posts (e.g. to find out what type of candidates react to the posting, are they the targeted ones?).
+We have two types of users: job seekers and recruiters. The goal is to design a classifier based on each user’s profile (education, industry, years of experience, location, etc.) that will help him / her find the suitable positions / candidates. We will rely extensively on Natural Language Processing to capture the features of resumes and job postings. At the early stage, the user still needs to rely on the traditional key-word searching and manually identify positions / resumes of interest. Once there are enough records, the magic happens. We will use algorithms to identify opening positions / candidates users are likely interested in and directly push recommendations to them. The users can react to the recommendations by selecting the ones match their preferance, the feedback will be further used to refine the prediction. In other words, the more activly a user uses our service, the more precise the prediction is going to become.
 
-For privacy concerns, we do not plan to use any data from personal interactions between candidates and recruiters, although such kind of interactions and transparent feedbacks are encouraged on this platform.
+Once we have sufficient interactions between job seekers and recruiters, we can start to offer more value-adding services based on the analytics. For candidates, we can share them the anonymous candidates profiles that were hired by positions of interest (e.g. average education, years of experience, skillsets), and use the information to help them evaluate their strength and weakness and offer them advices on career development (e.g. to build skills and acquire certificates) and resume writing. For recruiters, we can help them evaluate the effectiveness of their job posts (e.g. the profile of candidates who react to similar posting. Are they the targeted candidates?) and make suggestions (e.g. adjust requirements and salaries) to help them achieve hiring objectives.
+
+We will also use anonymous data from direct interactions between candidates and recruiters to improve our model, however we will add an option to opt out if there are any privacy concerns.
 
 
 ## Making job hunting a better experience
