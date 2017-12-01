@@ -27,12 +27,12 @@ Hello, welcome to my portfolio of cool ideas. In this page, you can learn about 
 knitr::include_url('https://drive.google.com/file/d/1lzqfVRgWuZMVeAubZ4dxPEnPVPOBtUqy/preview')
 ```
 
-### Interactive Recruiters
+### Interactive Recruiters {-}
 
 Pairing the right job with the right candidate was never easy. With machine learning techniques, interactive recruiters can understand what job seekders and recruiters are looking for, and bring them together.
 
 
-### Totally Legal Front Runner
+### Totally Legal Front Runner {-}
 
 This project aims to help active asset management professionals to generate more return by predicting the rebalancing activities of passively managed funds.
 
